@@ -9,6 +9,6 @@
 .cta{text-align:center}.site-footer{padding:35px 0;background:#06131b;color:#c7d2d6}.footer-row{display:flex;justify-content:space-between;gap:30px;align-items:center}.footer-links{display:flex;gap:20px}.small{font-size:.88rem;color:var(--muted)}
 @media(max-width:800px){.menu{display:block}.nav-links{display:none;position:absolute;top:82px;left:0;right:0;background:#fff;padding:24px 20px;flex-direction:column;box-shadow:var(--shadow)}.nav-links.open{display:flex}.split,.contact-grid{grid-template-columns:1fr;gap:40px}.grid{grid-template-columns:1fr}.section{padding:70px 0}.hero{min-height:700px}.hero-inner{padding:85px 0}.footer-row{flex-direction:column;text-align:center}}
 
-/* Preserve the complete original hero artwork at every desktop width. */
-.hero{background-color:#071722;background-image:linear-gradient(90deg,rgba(4,18,27,.82),rgba(4,18,27,.58)),url('../images/hero-hd.webp');background-position:center;background-size:contain;background-repeat:no-repeat}
-@media(max-width:800px){.hero{background-size:cover}}
+/* Full-width crop matching the original live presentation. */
+.hero{min-height:710px;background-color:#071722;background-image:linear-gradient(90deg,rgba(4,18,27,.82),rgba(4,18,27,.58)),url('../images/hero-hd.webp');background-position:center 48%;background-size:cover;background-repeat:no-repeat}
+@media(max-width:800px){.hero{min-height:650px;background-position:center}}
